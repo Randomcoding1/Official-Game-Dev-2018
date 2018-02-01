@@ -30,7 +30,7 @@
 
 <br> <br> <br>
 
-<input type=button value="click me" onclick="{
+<input type=button value="Don't click me" onclick="{
 
 	alert('What a useless button, huh?')
 	alert('What even is this?')
@@ -162,6 +162,7 @@
 <input type=button value="click Me" onclick="{
 
 	document.getElementById('myDiv01').innerHTML = 'working<br>'
+	document.getElementById('myDiv04').innerHTML = '^ Probably not ^'
 	document.getElementById('myDiv02').innerHTML += 'working???working???working???working???working???working???working???working???working???working???working???working???working???working???working???working???working???working???working???working???working???working???'
 	
 
@@ -174,6 +175,10 @@
 <br> <br>
 
 <div id="myDiv02"> ...</div>
+
+<br> <br>
+
+<div id="myDiv04"> </div>
 
 <br> <br>
 
