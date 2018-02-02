@@ -28,8 +28,62 @@
 
 <br> <br> <br> <br>
 
+<input type=password value=Password></input>
 
+<input type=submit onclick="{
 
+	document.getElementById('myDiv02').innerHTML = 'error'
+
+}">
+
+<div id="myDiv02"> </div>
+
+<br> <br> <br> <br>
+
+<input type=radio>Yes</input>
+<input type=radio>No</input>
+
+<br> <br> <br> <br>
+
+<input type="file"  onclick="{
+
+	document.getElementById('myDiv01').innerHTML = '...'
+
+}">
+
+<br> <br>
+
+<div id="myDiv01"> </div>
+
+<br> <br> <br> <br>
+
+<input type=reset onclick="{
+
+	location.reload();
+	document.getElementById('myDiv03').innerHTML = '(Yes, this actually refreshes the page)'
+
+}">
+
+<div id="myDiv03"> </div>
+	
+
+<br> <br> <br> <br>
+
+<input type=range onclick="{
+
+	document.getElementById('myDiv04').innerHTML = 'This slider is literally useless'
+
+}">
+
+<div id=myDiv04> </div>
+
+<br> <br> <br> <br>
+
+<input id="myText01" type="text" value="a text box">
+
+<br> <br> <br> <br>
+
+<input id"myCheckbox1" type=checkbox>Is this page done?
 
 <br> <br> <br> <br>
 
